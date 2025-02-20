@@ -1,0 +1,132 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="26.0.15">
+  <diagram name="Page-1" id="R-EvK54RbHj5W-IikmE-">
+    <mxGraphModel dx="2074" dy="1098" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="900" pageHeight="1600" background="#ffffff" math="0" shadow="1">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="i_P08QmVOyNezVbD-6mT-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="i_P08QmVOyNezVbD-6mT-1" target="i_P08QmVOyNezVbD-6mT-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i_P08QmVOyNezVbD-6mT-1" value="Request for Pre-Enrollment" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="385" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i_P08QmVOyNezVbD-6mT-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="i_P08QmVOyNezVbD-6mT-2" target="i_P08QmVOyNezVbD-6mT-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i_P08QmVOyNezVbD-6mT-2" value="Validation of the request" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="385" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i_P08QmVOyNezVbD-6mT-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="i_P08QmVOyNezVbD-6mT-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="565" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i_P08QmVOyNezVbD-6mT-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="i_P08QmVOyNezVbD-6mT-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="445" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i_P08QmVOyNezVbD-6mT-3" value="Is Valid?" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="405" y="330" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="i_P08QmVOyNezVbD-6mT-6" value="Throws&lt;div&gt;Exception&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="570" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i_P08QmVOyNezVbD-6mT-9" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="500" y="340" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i_P08QmVOyNezVbD-6mT-14" value="Yes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="385" y="430" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i_P08QmVOyNezVbD-6mT-15" value="Check the database for existing record with the given Vin No" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="365" y="480" width="160" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="i_P08QmVOyNezVbD-6mT-16" value="Update the enrolled details only in DB" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="620" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i_P08QmVOyNezVbD-6mT-17" value="Create the pre enrollment record in DB" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i_P08QmVOyNezVbD-6mT-20" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="i_P08QmVOyNezVbD-6mT-15" target="i_P08QmVOyNezVbD-6mT-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="650" as="sourcePoint" />
+            <mxPoint x="350" y="590" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="575" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i_P08QmVOyNezVbD-6mT-22" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.45;entryY=-0.056;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="i_P08QmVOyNezVbD-6mT-15" target="i_P08QmVOyNezVbD-6mT-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="575" as="sourcePoint" />
+            <mxPoint x="525" y="720" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="674" y="575" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i_P08QmVOyNezVbD-6mT-23" value="if not" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="630" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i_P08QmVOyNezVbD-6mT-24" value="if present" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="690" y="630" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i_P08QmVOyNezVbD-6mT-25" value="Return the response containing Message ID along with Honda customer ID&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="385" y="910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i_P08QmVOyNezVbD-6mT-27" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="i_P08QmVOyNezVbD-6mT-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="750" as="sourcePoint" />
+            <mxPoint x="380" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i_P08QmVOyNezVbD-6mT-28" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="780" as="sourcePoint" />
+            <mxPoint x="510" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i_P08QmVOyNezVbD-6mT-29" value="Pre-Enrollment DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="730" y="490" width="90" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="i_P08QmVOyNezVbD-6mT-30" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=35;entryPerimeter=0;" edge="1" parent="1" target="i_P08QmVOyNezVbD-6mT-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="481" y="525" as="sourcePoint" />
+            <mxPoint x="580" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i_P08QmVOyNezVbD-6mT-31" value="Vehicle Info Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i_P08QmVOyNezVbD-6mT-33" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="i_P08QmVOyNezVbD-6mT-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="505" y="250" as="sourcePoint" />
+            <mxPoint x="555" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i_P08QmVOyNezVbD-6mT-34" value="Validating Vin No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i_P08QmVOyNezVbD-6mT-35" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.756;entryY=0.994;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="i_P08QmVOyNezVbD-6mT-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="740" y="750" as="sourcePoint" />
+            <mxPoint x="790" y="700" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="800" y="750" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i_P08QmVOyNezVbD-6mT-37" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.007;entryY=0.624;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="i_P08QmVOyNezVbD-6mT-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="750" as="sourcePoint" />
+            <mxPoint x="310" y="700" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="750" />
+              <mxPoint x="600" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
